@@ -4,6 +4,9 @@ import Footer from "./components/Footer";
 import Heroimage from "/Users/tolulopeadelye/exam/src/assets/Heroimage.png";
 import { HashLink } from "react-router-hash-link";
 import { Helmet } from "react-helmet-async";
+import icon from "../assets/icon.svg"
+import iconn from "../assets/iconn.svg"
+import iconnn from "../assets/iconnn.svg"
 
 export default function Home() {
   return (
@@ -39,7 +42,7 @@ export default function Home() {
       <section className="section-2">
         <div className="cards">
           <div className="card-container">
-            <img alt=""></img>
+            <img src={iconn} alt="users" width="10%"></img>
             <h3>Work in an real team</h3>
             <p>
               Collaborate with cross-discipline team members, in a real
@@ -47,7 +50,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img alt=""></img>
+            <img src={icon} alt="" width="10%"></img>
             <h3>Build something tangible</h3>
             <p>
               Go beyond boilerplate projects and case studies. Show that you can
@@ -55,7 +58,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img alt=""></img>
+            <img src={iconnn} alt="" width="10%"></img>
             <h3>Prove your experience</h3>
             <p>
               Follow agile best practices, and gain experience you can
