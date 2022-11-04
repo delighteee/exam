@@ -5,7 +5,7 @@ const ErrorPage = () => {
     return (
       <div className="ErrorPage">
         <img src={error} alt="error" width="20%"></img>
-        <p>This page doesn't exist</p>
+        <p>This page is outside of the universe</p>
        <button className="login-button">
             <Link to="/">
               Go back Home
