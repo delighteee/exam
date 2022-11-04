@@ -5,7 +5,7 @@ import logo from "/Users/tolulopeadelye/exam/src/assets/logo.png";
 
 const CustomNavLink = ({ to, ...props }) => {
   let activeStyle = {
-    color:  "#e6a948",
+    color: "#e6a948",
     transition: "all 1s",
   };
 
@@ -32,7 +32,6 @@ const Layout = () => {
     <nav className="navigation-container">
       <div className="logo">
         <img src={logo} alt="Hauxano Logo" width="40%"></img>
-        
       </div>
       <div className="links">
         {" "}

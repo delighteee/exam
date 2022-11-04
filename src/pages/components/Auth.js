@@ -16,7 +16,7 @@ const Auth = () => {
   }
   return (
     <div id="logout">
-      <h2 className="welcome-message"> Welcome {user.displayName}</h2>
+      <h2 className="welcome-message"> Welcome 👋🏼, {user.displayName}</h2>
       <p>You're logged in {user.username}</p>
       <button className="logout-button" onClick={onClick}>
         Log Out
