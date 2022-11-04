@@ -369,11 +369,29 @@ a:hover{
   
 }
 
+.track-container{
+  display:flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.program-image{
+  border-radius: 16px;
+}
+
+.track-details{
+  max-width: 600px ;
+}
+
 .track-box:hover{
   background-color: #2b2b2b;
 }
 .design{
   background: var(--accent-color3);
+}
+
+.track-image{
+  max-width:50%;
 }
 
 .pm{
@@ -408,6 +426,13 @@ a:hover{
     align-items: center;
     gap: 3em;
   }
+
+  .track-container{
+    display:flex;
+    flex-direction: column;
+  }
+
+
 
 }
 

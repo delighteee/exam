@@ -50,7 +50,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img src={icon} alt="" width="10%"></img>
+            <img src={icon} alt="house" width="10%"></img>
             <h3>Build something tangible</h3>
             <p>
               Go beyond boilerplate projects and case studies. Show that you can
@@ -58,7 +58,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img src={iconnn} alt="" width="10%"></img>
+            <img src={iconnn} alt="check-list" width="10%"></img>
             <h3>Prove your experience</h3>
             <p>
               Follow agile best practices, and gain experience you can
