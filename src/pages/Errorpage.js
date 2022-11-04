@@ -1,8 +1,16 @@
+import { Link } from "react-router-dom";
+import error from "../assets/error.png"
+
 const ErrorPage = () => {
     return (
       <div className="ErrorPage">
-        <h1 >404</h1>
+        <img src={error}></img>
         <p>This page doesn't exist</p>
+       <button className="login-button">
+            <Link to="/">
+              Go back Home
+            </Link>
+            </button>
         </div>
     );
   };

@@ -330,7 +330,6 @@ a:hover{
 /*errorpage */
 .ErrorPage {
   background: #2b2b2b;
-  width: 100vw;
   height: 100vh;
   color: #f55a5a;
   text-align: center;
