@@ -32,7 +32,7 @@ export default function Home() {
                 el.scrollIntoView({ behavior: "auto", block: "end" })
               }
             >
-              Create Account
+              Log in to your account
             </HashLink>
           </button>
         </div>
