@@ -137,6 +137,7 @@ p {
 
 img {
   float: right;
+  height: auto;
 }
 
 .section3-text, .tracks-text {
@@ -377,6 +378,7 @@ a:hover{
 
 .program-image{
   border-radius: 16px;
+  height: auto;
 }
 
 .track-details{
@@ -392,6 +394,7 @@ a:hover{
 
 .track-image{
   max-width:50%;
+  height: auto;
 }
 
 .pm{

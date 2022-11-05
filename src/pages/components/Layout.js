@@ -31,7 +31,7 @@ const Layout = () => {
   return (
     <nav className="navigation-container">
       <div className="logo">
-        <img src={logo} alt="Hauxano Logo" width="40%"></img>
+        <img src={logo} alt="Hauxano Logo" width="40%" height="auto"></img>
       </div>
       <div className="links">
         {" "}

@@ -14,7 +14,7 @@ export default function ProgramTracks() {
       <section className="programtracks">
         <div className="program-section">
         <div className="hero-text">
-          <h1 className="hero-title">Our Programs</h1>
+          <h1 className="hero-title">Our Programs at Hauxano</h1>
           <p >
             The Hauxano Platform provides a tool to design, implement, deliver
             and assess digital courses across the continent. The mission is to
@@ -23,31 +23,31 @@ export default function ProgramTracks() {
             and customised master classes online.{" "}
           </p>
         </div>
-        <img className="hero-image program-image" src={img} alt="students"></img>
+        <img className="hero-image program-image" src={img} alt="students" height="auto" ></img>
         </div>
 
         <div className="tracks">
           <div className="track-box design">
             <Link to="productdesign">
-              <h3>Product Design</h3>
+              <p>Product Design</p>
             </Link>
           </div>
 
           <div className="track-box pm">
             <Link to="productmanagement">
-              <h3>Product Management</h3>
+              <p>Product Management</p>
             </Link>
           </div>
 
           <div className="track-box software">
             <Link to="softwareengineering">
-              <h3>Software Engineering</h3>
+              <p>Software Engineering</p>
             </Link>
           </div>
 
           <div className="track-box data">
             <Link to="dataanalysis">
-              <h3>Data Analysis</h3>
+              <p>Data Analysis</p>
             </Link>
           </div>
         </div>
