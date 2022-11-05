@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="footer-links">
       <Link to="/"> Home </Link>
       <Link to="programtracks"> Programs</Link>
-      <Link to="home"> Contact </Link>
-      <Link to="home"> FAQ</Link>
+      <Link to="/"> Contact </Link>
+      
       </div>
       <p className="footer-text">Hauxano &copy; 2022  | Built by Tolulope Oyewumi</p>
     </footer>
