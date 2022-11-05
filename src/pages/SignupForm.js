@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 export default function SignupForm() {
   const { logIn } = useUserAuth();
   const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [setPassword] = useState("");
 
   function onSubmit(e) {
     e.preventDefault();
@@ -45,24 +45,29 @@ export default function SignupForm() {
               <label className="input-label">Password</label>
             </div>
 
-            <button className="card-button"><HashLink
-              to="/auth"
-              smooth
-              scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "end" })
-              }
-            >
-             Create account
-            </HashLink></button>
-            <p>Already have an account? <HashLink
-              to="/auth"
-              smooth
-              scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "end" })
-              }
-            >
-             Log in
-            </HashLink></p>
+            <button className="card-button">
+              <HashLink
+                to="/auth"
+                smooth
+                scroll={(el) =>
+                  el.scrollIntoView({ behavior: "auto", block: "end" })
+                }
+              >
+                Create account
+              </HashLink>
+            </button>
+            <p className="note">
+              Already have an account?{" "}
+              <HashLink
+                to="/auth"
+                smooth
+                scroll={(el) =>
+                  el.scrollIntoView({ behavior: "auto", block: "end" })
+                }
+              >
+                Log in
+              </HashLink>
+            </p>
           </form>
           <div className="card-info"></div>
         </div>

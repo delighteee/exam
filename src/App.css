@@ -42,7 +42,7 @@ img {
 
 a {
   cursor: pointer;
-  color: #98c098;
+  color: #f7f4d5;
   text-decoration: none;
 }
 
@@ -331,6 +331,14 @@ a:hover {
 #logout {
   text-align: center;
 }
+
+.note{
+  padding:8px;
+  background: #80877c;
+  color:#ffffff ;
+  border-radius: 4px;
+}
+
 
 /*errorpage */
 .ErrorPage {

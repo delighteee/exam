@@ -22,7 +22,7 @@ const CustomNavLink = ({ to, ...props }) => {
 };
 
 const Layout = () => {
-  const { user, logIn } = useUserAuth();
+  const { logIn } = useUserAuth();
   function onClick(e) {
     e.preventDefault();
     logIn();

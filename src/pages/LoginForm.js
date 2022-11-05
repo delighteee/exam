@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 export default function LoginForm() {
   const { logIn } = useUserAuth();
   const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [setPassword] = useState("");
 
   function onSubmit(e) {
     e.preventDefault();
@@ -46,7 +46,7 @@ export default function LoginForm() {
             </div>
 
             <button className="card-button">Log in</button>
-            <p>Don't have an account? <HashLink
+            <p className="note">Don't have an account? <HashLink
               to="/signup"
               smooth
               scroll={(el) =>
