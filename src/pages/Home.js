@@ -42,7 +42,7 @@ export default function Home() {
       <section className="section-2">
         <div className="cards">
           <div className="card-container">
-            <img src={iconn} alt="users" width="10%"></img>
+            <img src={iconn} alt="users" width="10%" height="auto"></img>
             <h3>Work in an real team</h3>
             <p>
               Collaborate with cross-discipline team members, in a real
@@ -50,7 +50,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img src={icon} alt="house" width="10%"></img>
+            <img src={icon} alt="house" width="10%" height="auto"></img>
             <h3>Build something tangible</h3>
             <p>
               Go beyond boilerplate projects and case studies. Show that you can
@@ -58,7 +58,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img src={iconnn} alt="check-list" width="10%"></img>
+            <img src={iconnn} alt="check-list" width="10%" height="auto"></img>
             <h3>Prove your experience</h3>
             <p>
               Follow agile best practices, and gain experience you can
