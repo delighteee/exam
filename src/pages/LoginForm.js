@@ -50,7 +50,7 @@ export default function LoginForm() {
               to="/signup"
               smooth
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "end" })
+                el.scrollIntoView({ behavior: "auto", block: "end"})
               }
             >
               Create account
