@@ -26,13 +26,13 @@ export default function Home() {
           </p>
           <button className="login-button">
             <HashLink
-              to="/auth"
+              to="/signup"
               smooth
               scroll={(el) =>
                 el.scrollIntoView({ behavior: "auto", block: "end" })
               }
             >
-              Log in to your account
+             Create an account
             </HashLink>
           </button>
         </div>

@@ -392,8 +392,8 @@ a:hover{
   background: var(--accent-color3);
 }
 
-.track-image{
-  max-width:50%;
+.track-image, .program-image{
+  width:45%;
   height: auto;
 }
 
@@ -435,6 +435,10 @@ a:hover{
     flex-direction: column;
   }
 
+  .track-image, .program-image{
+    width:100%;
+    height: auto;
+  }
 
 
 }

@@ -6,6 +6,7 @@ let ErrorPage = lazy(() => import("../pages/Errorpage"));
 let Home = lazy(() => import("../pages/Home"));
 let Auth = lazy(() => import("../pages/components/Auth"));
 let LoginForm = lazy(() => import("../pages/LoginForm"));
+let SignupForm = lazy(() => import("../pages/SignupForm.js"));
 let ProductDesign = lazy(() => import("../pages/ProductDesign"));
 let ProductManagement = lazy(() => import("../pages/ProductManagement"));
 let Software = lazy(() => import("../pages/Software"));
@@ -49,6 +50,15 @@ const AppRouter = () => (
       element={
         <Suspense fallback={<div className="loading">Loading</div>}>
           <LoginForm />
+        </Suspense>
+      }
+    />
+
+<Route
+      path="/signup"
+      element={
+        <Suspense fallback={<div className="loading">Loading</div>}>
+          <SignupForm />
         </Suspense>
       }
     />

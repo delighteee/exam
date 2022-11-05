@@ -3,7 +3,7 @@ import { useUserAuth } from "../context/userContext";
 import { Helmet } from "react-helmet-async";
 import { HashLink } from "react-router-hash-link";
 
-export default function LoginForm() {
+export default function SignupForm() {
   const { logIn } = useUserAuth();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -16,13 +16,13 @@ export default function LoginForm() {
   return (
     <>
       <Helmet>
-        <title>Log In</title>
+        <title>Sign up</title>
         <meta name="description" content="Leverage your tech career" />
         <link rel="canonical" href="/" />
       </Helmet>
       <main className="form-container">
         <div className="card">
-          <h1 className="card-title">Login to your account</h1>
+          <h1 className="card-title">Create your account</h1>
           <form onSubmit={onSubmit} className="card-form">
             <div className="input">
               <input
@@ -45,15 +45,23 @@ export default function LoginForm() {
               <label className="input-label">Password</label>
             </div>
 
-            <button className="card-button">Log in</button>
-            <p>Don't have an account? <HashLink
-              to="/signup"
+            <button className="card-button"><HashLink
+              to="/auth"
               smooth
               scroll={(el) =>
                 el.scrollIntoView({ behavior: "auto", block: "end" })
               }
             >
-              Create account
+             Create account
+            </HashLink></button>
+            <p>Already have an account? <HashLink
+              to="/auth"
+              smooth
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: "auto", block: "end" })
+              }
+            >
+             Log in
             </HashLink></p>
           </form>
           <div className="card-info"></div>

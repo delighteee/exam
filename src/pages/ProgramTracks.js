@@ -23,7 +23,7 @@ export default function ProgramTracks() {
             and customised master classes online.{" "}
           </p>
         </div>
-        <img className="hero-image program-image" src={img} alt="students" height="auto" ></img>
+        <img className="program-image" src={img} alt="students" ></img>
         </div>
 
         <div className="tracks">
