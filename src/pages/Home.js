@@ -26,7 +26,7 @@ export default function Home() {
           </p>
           <button className="login-button">
             <HashLink
-              to="/login"
+              to="/auth"
               smooth
               scroll={(el) =>
                 el.scrollIntoView({ behavior: "auto", block: "end" })
