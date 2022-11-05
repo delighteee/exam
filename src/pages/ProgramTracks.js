@@ -9,7 +9,7 @@ export default function ProgramTracks() {
       <Helmet>
         <title>Program Tracks</title>
         <meta name="description" content="Leverage your tech career" />
-        <link rel="canonical" href="/programtracks" />
+        <link rel="canonical" href="/" />
       </Helmet>
       <section className="programtracks">
         <div className="program-section">

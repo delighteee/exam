@@ -17,7 +17,7 @@ export default function LoginForm() {
       <Helmet>
         <title>Log In</title>
         <meta name="description" content="Leverage your tech career" />
-        <link rel="canonical" href="/login" />
+        <link rel="canonical" href="/" />
       </Helmet>
       <main className="form-container">
         <div className="card">
