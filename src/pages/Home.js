@@ -8,6 +8,7 @@ import icon from "../assets/icon.svg"
 import iconn from "../assets/iconn.svg"
 import iconnn from "../assets/iconnn.svg"
 
+
 export default function Home() {
   return (
     <main id="home">
@@ -36,13 +37,13 @@ export default function Home() {
             </HashLink>
           </button>
         </div>
-        <img className="hero-image" src={Heroimage} alt="students"></img>
+        <img className="hero-image" src={Heroimage} alt="students" width="600" height="600" ></img>
       </section>
 
       <section className="section-2">
         <div className="cards">
           <div className="card-container">
-            <img src={iconn} alt="users" width="10%" height="auto"></img>
+            <img src={iconn} alt="users" width="32" height="32"></img>
             <h3>Work in an real team</h3>
             <p>
               Collaborate with cross-discipline team members, in a real
@@ -50,7 +51,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img src={icon} alt="house" width="10%" height="auto"></img>
+            <img src={icon} alt="house" width="32" height="32"></img>
             <h3>Build something tangible</h3>
             <p>
               Go beyond boilerplate projects and case studies. Show that you can
@@ -58,7 +59,7 @@ export default function Home() {
             </p>
           </div>
           <div className="card-container">
-            <img src={iconnn} alt="check-list" width="10%" height="auto"></img>
+            <img src={iconnn} alt="check-list" width="32" height="32"></img>
             <h3>Prove your experience</h3>
             <p>
               Follow agile best practices, and gain experience you can
@@ -86,8 +87,10 @@ export default function Home() {
               careers in any industry of their choice.
             </p>
             <img
-              src="https://assets.codepen.io/2301174/icon-supervisor.svg"
-              alt=""
+              src={require("../assets/undergrad.png")}
+              alt="undergraduate"
+              width="48"
+              height="48"
             />
           </div>
 
@@ -98,8 +101,10 @@ export default function Home() {
               seamlessly from one role or industry to the other.
             </p>
             <img
-              src="https://assets.codepen.io/2301174/icon-team-builder.svg"
-              alt=""
+              src={require("../assets/transitional.png")}
+              alt="transitional"
+              width="48"
+              height="48"
             />
           </div>
 
@@ -110,8 +115,10 @@ export default function Home() {
               level professionals across industries.
             </p>
             <img
-              src="https://assets.codepen.io/2301174/icon-calculator.svg"
-              alt=""
+               src={require("../assets/entrylevel.png")}
+               alt="entrylevel"
+               width="48"
+               height="48"
             />
           </div>
         </div>
@@ -123,8 +130,10 @@ export default function Home() {
               professional.
             </p>
             <img
-              src="https://assets.codepen.io/2301174/icon-karma.svg"
-              alt=""
+              src={require("../assets/tech.png")}
+              alt="tech-enthusiast"
+              width="48"
+              height="48"
             />
           </div>
         </div>
